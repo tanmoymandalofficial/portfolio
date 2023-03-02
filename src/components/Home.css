@@ -1,0 +1,28 @@
+#profileImage{
+    width: 350px;
+    /* margin-left: 500px; */
+}
+.typing{
+    width: 20%;
+    
+    
+}
+
+#contact{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    
+
+}
+
+#contact-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+

@@ -1,0 +1,48 @@
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+#container-img{
+    width: 45%;
+    padding: 20px;
+    border-radius: 30px;
+    
+}
+#container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+#container-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+.container-li{
+    list-style-type: disc;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 780px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+}
+#container-img{
+    width: fit-content;
+}
+}
