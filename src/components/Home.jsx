@@ -6,7 +6,7 @@ import "../components/NavBar.css";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import "../components/Home.css";
-import resume from '../assets/Tanmoy-Mondal.pdf'
+import resume from '../assets/Tanmoy_Mondal_Resume.pdf'
 
 const Home = () => {
   useEffect(() => {
